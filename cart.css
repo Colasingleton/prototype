@@ -1,0 +1,91 @@
+
+
+body {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2em;
+    color: #333;
+}
+
+article {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px; 
+    background-color: #fff;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    background-image: repeating-linear-gradient(45deg, 
+        #eee 10px,
+        #eee 12px,
+        transparent 12px,
+        transparent 20px);
+}
+
+article p {
+    margin: 0;
+    line-height: 1.5;
+    flex-grow: 1; 
+    font-size: 0.9em;
+    color: #555;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    font-size: 0.9em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.checkout-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+}
+
+.home-button, .checkout-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.home-button i {
+    font-size: 16px;
+    color: white;
+}
+
+.home-button:hover, .checkout-button:hover {
+    background-color: #0056b3;
+}
