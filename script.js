@@ -32,7 +32,7 @@ checkoutButton.addEventListener('click', (event) => {
   const confirmCheckout = confirm('Are you sure you want to checkout?');
   
   if (confirmCheckout) {
-    window.location.href = '/'; 
+    window.location.href = 'https://colasingleton.github.io/prototype/index.html'; 
   } else {
     event.preventDefault();
   }
